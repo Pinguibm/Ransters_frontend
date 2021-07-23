@@ -1,0 +1,24 @@
+section.contact {
+    padding: 140px 0 0 0;
+  }
+  section.contact input[type="text"] {
+    text-align: center;
+  }
+  section.contact textarea {
+    text-align: center;
+  }
+  section.contact form {
+    margin: 0 0 40px 0;
+    display: inline-block;
+    text-align: center;
+  }
+  section.contact .smallTitle {
+    text-align: center;
+  }
+  section.contact ul {
+    text-align: center;
+    margin: 0;
+  }
+  section.contact ul li i {
+    display: none;
+  }

@@ -3,8 +3,6 @@ import { NgModule } from '@angular/core';
 import { DataserviceService} from './dataservice.service'
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { NgImageSliderModule } from 'ng-image-slider';
-import { Test1Component} from './test1/test1.component'
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -54,9 +52,9 @@ import {OverlayModule} from '@angular/cdk/overlay';
 import { TestComponent } from './test/test.component';
 import { ExportComponent } from './export/export.component';
 import { HomeComponent } from './home/home.component';
-import { SlickCarouselModule} from 'ngx-slick-carousel';
-import { MatSelectCountryModule } from "@angular-material-extensions/select-country";
-import { ExcelComponent } from './excel/excel.component';
+import { SlickCarouselModule} from 'ngx-slick-carousel'
+import { NgImageSliderModule } from 'ng-image-slider';
+import { Test1Component } from './test1/test1.component';
 
 @NgModule({
   declarations: [
@@ -70,8 +68,7 @@ import { ExcelComponent } from './excel/excel.component';
     TestComponent,
     ExportComponent,
     HomeComponent,
-    Test1Component,
-    ExcelComponent
+    Test1Component
   ],
   imports: [
     BrowserModule,
@@ -116,8 +113,7 @@ import { ExcelComponent } from './excel/excel.component';
     OverlayModule,
     HttpClientModule ,
     SlickCarouselModule,
-    NgImageSliderModule,
-    MatSelectCountryModule.forRoot('de'),
+    NgImageSliderModule
    ],
   providers: [
     DataserviceService,

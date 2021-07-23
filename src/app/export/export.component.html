@@ -1,0 +1,63 @@
+
+
+<div>
+
+  <h4>Export Data For</h4>
+<mat-form-field appearance="fill">
+  <mat-select [(value)]="selectedValue">
+    <mat-option value="Buyer">Buyer</mat-option>
+    <mat-option value="Seller">Seller</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<div mat-dialog-actions>
+  <button  class="button-prop" mat-raised-button color="primary"
+    (click)="  exportArray(selectedValue)"  >Export</button>
+
+</div>
+
+
+  
+<!--  
+
+  <table id="excel-table">
+    <div>
+    <tr>        
+      <th>Name</th>
+      <th>Email</th>
+      <th>Mobile</th>
+      <th>Location</th>
+      <th>Description</th>
+    </tr>
+    <tr *ngFor="let item of data" >        
+      <td>{{item.name}}</td>
+      <td>{{item.email}}</td>
+      <td>{{item.mobile}}</td>
+      <td>{{item.location}}</td>
+      <td>{{item.description}}</td>
+    </tr>
+  </div>
+  </table>
+
+  -->
+  
+</div>
+
+
+
+
+<!-- <a href="https://wa.me/919629651055?text=Hello" title="Share on whatsapp">WhatsApp</a> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+

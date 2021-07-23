@@ -1,0 +1,22 @@
+<p>excel works!</p>
+
+<a style="cursor: pointer" (click)="exportexcel()">
+    <mat-icon> cloud_download</mat-icon>
+  </a>
+
+<table id="excel-table"> 
+    <tr>        
+        <th>Name</th>
+        <th>Email</th>
+        <th>Mobile</th>
+        <th>Location</th>
+        <th>Description</th>
+      </tr>   
+      <tr *ngFor="let item of data" >        
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.mobile}}</td>
+        <td>{{item.location}}</td>
+        <td>{{item.description}}</td>
+      </tr>
+</table>
